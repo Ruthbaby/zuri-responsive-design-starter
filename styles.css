@@ -13,17 +13,27 @@ div.nav-bar {
     padding: 1rem 6rem;
     width: 100vw;
     background: #304353;
+
 }
 
 div.logo {
     font-size: 1.5rem;
-    color: #bcc3c7;
+    color: #bcc3c7; 
+
+}
+.line{
+    width:30px;
+    height:3px;
+    background:silver;
+    margin:5px;
 }
 
 ul.nav-links {
     display: flex;
     margin: 0;
     padding: 0;
+   flex-direction: column; 
+    
 }
 
 ul li {
